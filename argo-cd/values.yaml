@@ -67,6 +67,7 @@ argo-cd:
 
   # Disabled for multitenancy env with single instance deployment
   applicationSet:
+    enabled: true
     enableScmProviders: false
   #   allowAnyNamespace: true
   #   extraEnv:
